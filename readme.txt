@@ -1,6 +1,3 @@
-If you aren't a dumbass... read me properly before trying.
-
-
 don't exit this code at any cost so much of useful data is there.
 don't stop it at 5 odd I mean.(Gaussian blur filter)
 do srx srx srx srxp
