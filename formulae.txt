@@ -1,0 +1,4 @@
+2(N-1) where N is character size.
+
+
+command I need: dlmwrite('sensor_data.csv',c,'delimiter',',','-append');
