@@ -1,0 +1,17 @@
+CODE=> BEGIN:
+global values; global myserialdevice;
+app.process.Enable='on';
+while(1==1)
+values=split(char(extractBetween((char(read(myserialdevice,64))),"/*","*/")),",");
+if (length(values)>1)
+    x=str2double(cell2mat(values(1)));
+    app.TG.Value=x;
+    %disp(class(str2double(cell2mat(values(3)))));
+    app.HG.Value=str2double(cell2mat(values(3)));
+    
+end
+end
+#######################################################################
+            global mypi;global myserialdevice;
+            mypi=raspi('192.168.43.240','pi','dpi123dpi');
+            myserialdevice = serialdev(mypi,'/dev/ttyUSB0',9600);

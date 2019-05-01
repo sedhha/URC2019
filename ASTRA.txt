@@ -1,0 +1,28 @@
+Modelling Martian enivronment into AR+VR
+Servo controlled BOT
+Geology:
+Rock
+Stratigraphy
+Texture
+Moisture
+Rock types and shapes
+Porosity/Grain fineness/Cosmicity etc.
+
+Physical parameters of Mars
+Temperature
+Humidity
+Pressure
+Specific Gases
+
+
+opening 
+closing morphological
+
+dilation
+
+
+STEPS:
+Calibrate the HSV Values
+Open the image to reduce background noise
+Close the image to remove internal noise
+34 79 44 87 234 226
